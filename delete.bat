@@ -6,3 +6,5 @@ kubectl delete -f https://raw.githubusercontent.com/GoogleCloudPlatform/metacont
 kubectl delete -f https://raw.githubusercontent.com/GoogleCloudPlatform/metacontroller/master/manifests/metacontroller-rbac.yaml
 
 kubectl delete namespace test
+kubectl delete pod --all
+kubectl delete crd myclusters.example.com
