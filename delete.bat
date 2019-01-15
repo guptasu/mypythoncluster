@@ -5,3 +5,4 @@ kubectl create clusterrolebinding $USER-cluster-admin-binding --clusterrole=clus
 kubectl delete -f https://raw.githubusercontent.com/GoogleCloudPlatform/metacontroller/master/manifests/metacontroller.yaml
 kubectl delete -f https://raw.githubusercontent.com/GoogleCloudPlatform/metacontroller/master/manifests/metacontroller-rbac.yaml
 
+kubectl delete namespace test
